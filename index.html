@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mudassir Business | Women Unstitched Collection</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fff7fb;
+            color: #333;
+        }
+
+        header {
+            background: #d63384;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            font-size: 35px;
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 18px;
+        }
+
+        nav {
+            background: #222;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff69b4;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(to right, #ffe0ef, #fff);
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            color: #d63384;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #d63384;
+            color: white;
+            padding: 13px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #a61e62;
+        }
+
+        .products {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .products h2 {
+            color: #d63384;
+            margin-bottom: 30px;
+            font-size: 32px;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+        }
+
+        .product img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            margin: 15px 0 8px;
+            color: #d63384;
+        }
+
+        .contact {
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 50px 20px;
+        }
+
+        .contact h2 {
+            color: #ff69b4;
+            margin-bottom: 15px;
+        }
+
+        .phone {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            .hero h2 {
+                font-size: 30px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mudassir Business</h1>
+        <p>Women Unstitched Collection</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Beautiful Women Unstitched Collection</h2>
+        <p>Latest designs, beautiful colors & quality fabric.</p>
+
+        <a class="btn" href="#collection">View Collection</a>
+    </section>
+
+    <section class="products" id="collection">
+
+        <h2>Our Collection</h2>
+
+        <div class="product-container">
+
+            <div class="product">
+                <img src="https://via.placeholder.com/280x280?text=Collection+1"
+                     alt="Women Unstitched Collection">
+                <h3>Premium Collection</h3>
+                <p>Beautiful unstitched fabric for women.</p>
+            </div>
+
+            <div class="product">
+                <img src="https://via.placeholder.com/280x280?text=Collection+2"
+                     alt="Women Unstitched Collection">
+                <h3>New Arrival</h3>
+                <p>Latest designs and stylish colors.</p>
+            </div>
+
+            <div class="product">
+                <img src="https://via.placeholder.com/280x280?text=Collection+3"
+                     alt="Women Unstitched Collection">
+                <h3>Special Collection</h3>
+                <p>Quality fabric at great prices.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>For orders and details, contact us:</p>
+
+        <div class="phone">
+            📞 03293775025
+        </div>
+
+        <!-- WhatsApp Button -->
+        <a class="btn"
+           href="https://wa.me/923293775025"
+           target="_blank">
+            Contact on WhatsApp
+        </a>
+
+        <!-- Call Button -->
+        <a class="btn"
+           href="tel:03293775025">
+            Call Now
+        </a>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Mudassir Business | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
